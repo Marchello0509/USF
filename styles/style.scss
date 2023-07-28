@@ -1,0 +1,116 @@
+@mixin FlexElement($justify, $align) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin ForBlocks ($justify) {
+    display: flex;
+    justify-content: $justify;
+}
+
+.header {
+    &_head {
+        @include FlexElement(center, center);
+        width: 100%;
+        height: 72px;
+        background: #050404;
+        box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 0.25) inset;
+        backdrop-filter: blur(6.5px);
+        &_nav {
+            width: 560px;
+            height: 20px;
+            &_navitem {
+                &_ul {
+                    @include FlexElement(space-between, center);
+                    &_li {
+                        list-style: none;
+                        &_a {
+                            color: #ffffff;
+                            font-family: Inter;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 200;
+                            line-height: normal;
+                            text-decoration: none;
+                            transition-duration: 0.6s;
+                            &:hover {
+                                transition-duration: 0.6s;
+                                text-shadow: 
+                                0 0 1px #fff,
+                                0 0 2px #fff,
+                                0 0 5px #fff,
+                                0 0 11px rgb(242, 255, 0),
+                                0 0 20px rgb(242, 255, 0),
+                                0 0 30px rgb(242, 255, 0),
+                                0 0 55px rgb(242, 255, 0),
+                                0 0 80px rgb(242, 255, 0);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.main {
+    &_block1 {
+        @include FlexElement(center, center);
+        width: 100%;
+        height: 723px;
+        background: url("../img/bg.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        &_bl {
+            width: 989px;
+            height: 526px;
+            &_title {
+                color: #FFF;
+                font-family: Inter;
+                font-size: 128px;
+                font-style: normal;
+                font-weight: 400;
+            }
+            &_p1 {
+                color: #FFF;
+                font-family: Inter;
+                font-size: 64px;
+                font-style: normal;
+                font-weight: 400;
+                margin-top: 5px;
+            }
+            &_p2 {
+                width: 459px;
+                height: 150px;
+                color: #FFF;
+                text-align: justify;
+                font-family: Inter;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 400;
+                margin-top: 25px;
+            }
+            &_btn {
+                width: 199px;
+                height: 60px;
+                border-radius: 10px;
+                background: #FFD76E;
+                border: none;
+                color: #000;
+                font-family: Inter;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                margin-top: 60px;
+                cursor: pointer;
+                transition-duration: 0.6s;
+                &:hover {
+                    transition-duration: 0.6s;
+                    background: #fff;
+                }
+            }
+        }
+    }
+}
