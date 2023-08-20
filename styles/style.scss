@@ -946,6 +946,9 @@
             width: 64px;
             height: 266px; 
             margin-top: 50px;  
+            &_a {
+                cursor: pointer;
+            }
         }
     }
 }
