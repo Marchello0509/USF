@@ -513,6 +513,444 @@
                     margin-top: 16px;      
                 } 
             }
+            &_forbl1 {
+                @include ForBlocks(center);
+                &_bl1 {
+                    width: 299px;
+                    height: 345px;
+                    margin-top: 30px;      
+                    &_img {
+                        display: block;
+                    }    
+                    &_forp {
+                        @include ForBlocks(center);
+                        &_p {
+                            color: #FFF;
+                            font-family: Inter;
+                            font-size: 24px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            margin-top: 15px;                      
+                        }
+                    }   
+                }
+            }
+            &_forbl2 {
+                @include ForBlocks(center);
+                &_bl2 {
+                    width: 299px;
+                    height: 345px;
+                    margin-top: 30px;      
+                    &_img {
+                        display: block;
+                    }    
+                    &_forp {
+                        @include ForBlocks(center);
+                        &_p {
+                            color: #FFF;
+                            font-family: Inter;
+                            font-size: 20px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            margin-top: 15px;                      
+                        }
+                    }   
+                }
+            }
+            &_forbl3 {
+                @include ForBlocks(center);
+                &_bl3 {
+                    width: 299px;
+                    height: 345px;
+                    margin-top: 30px;      
+                    &_img {
+                        display: block;
+                    }    
+                    &_forp {
+                        @include ForBlocks(center);
+                        &_p {
+                            color: #FFF;
+                            font-family: Inter;
+                            font-size: 20px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            margin-top: 15px;                      
+                        }
+                    }   
+                }
+            }
+        }
+        &_block9 {
+            width: 100%;
+            height: 297px;
+            background: url("../img/bg2.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            &_forp {
+                @include ForBlocks(center);
+                &_p {
+                    color: #000;
+                    font-family: Inter;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;   
+                    margin-top: 77px;           
+                }
+            }
+            &_forp2 {
+                @include ForBlocks(center);
+                &_p {
+                    width: 351px;
+                    height: 92px;
+                    color: #000;
+                    text-align: center;
+                    font-family: Inter;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    margin-top: 25px;                  
+                }
+            }
+        }
+        &_block10 {
+            width: 100%;
+            height: 2045px;
+            background: #000;
+            &_forp {
+                @include ForBlocks(center);
+                &_p {
+                    color: #FFD76E;
+                    font-family: Inter;
+                    font-size: 40px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;    
+                    margin-top: 26px;         
+                }
+            }
+            &_forimg {
+                @include ForBlocks(center);
+                &_img {
+                    display: block;
+                    margin-top: 42px
+                }
+            }
+            &_forp2 {
+                @include ForBlocks(center);
+                margin-top: 24px;
+                &_text {
+                    @include FlexElement(center, center);
+                    border: 2px solid #FFD76E;
+                    width: 312px;
+                    height: 164px;
+                    &_p {
+                        width: 289px;
+                        height: 120px;
+                        color: #FFF;
+                        text-align: justify;
+                        font-family: Inter;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                    }
+                }
+            }
+            &_forimg2 {
+                @include ForBlocks(center);
+                &_img {
+                    display: block;
+                    margin-top: 18px;
+                }
+            }
+            &_forp3 {
+                @include ForBlocks(center);
+                margin-top: 24px;
+                &_text {
+                    @include FlexElement(center, center);
+                    border: 2px solid #FFD76E;
+                    width: 312px;
+                    height: 206px;
+                    &_p {
+                        width: 303px;
+                        height: 191px;
+                        color: #FFF;
+                        text-align: justify;
+                        font-family: Inter;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                    }
+                }
+            }
+            &_forimg3 {
+                @include ForBlocks(center);
+                &_img {
+                    display: block;
+                    margin-top: 18px;
+                }
+            }
+            &_forimg4 {
+                @include ForBlocks(center);
+                &_img {
+                    display: block;
+                    margin-top: 18px;
+                }
+            }
+            &_forimg5 {
+                @include ForBlocks(center);
+                &_img {
+                    display: block;
+                    margin-top: 18px;
+                }
+            }
+            &_forimg6 {
+                @include ForBlocks(center);
+                &_img {
+                    display: block;
+                    margin-top: 18px;
+                }
+            }
+            &_forp4 {
+                @include ForBlocks(center);
+                margin-top: 24px;
+                &_text {
+                    @include FlexElement(center, center);
+                    border: 2px solid #FFD76E;
+                    width: 312px;
+                    height: 238px;
+                    &_p {
+                        width: 282px;
+                        height: 214px;
+                        color: #FFF;
+                        text-align: justify;
+                        font-family: Inter;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                    }
+                }
+            }
+        }
+        &_block11 {
+            width: 100%;
+            height: 297px;
+            background: url("../img/bg2.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            &_forp {
+                @include ForBlocks(center);
+                &_p {
+                    color: #000;
+                    font-family: Inter;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;   
+                    margin-top: 77px;           
+                }
+            }
+            &_forp2 {
+                @include ForBlocks(center);
+                &_p {
+                    width: 351px;
+                    height: 92px;
+                    color: #000;
+                    text-align: center;
+                    font-family: Inter;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    margin-top: 25px;                  
+                }
+            }
+        }
+        &_block12 {
+            width: 100%;
+            height: 500px;
+            background: #000;
+            &_forp {
+                @include ForBlocks(center);
+                &_p {
+                    color: #FFD76E;
+                    font-family: Inter;
+                    font-size: 40px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    margin-top: 18px;              
+                }
+            }
+            &_forbl {
+                @include ForBlocks(center);
+                &_bl {
+                    width: 338px;
+                    height: 374px;            
+                    border-radius: 8px;
+                    border: 4px solid #FFD76E;
+                    background: #FFF;
+                    margin-top: 22px;   
+                    &_forp {
+                        @include ForBlocks(center);
+                        &_p {
+                            color: #fac848;
+                            font-family: Inter;
+                            font-size: 20px;
+                            font-style: normal;
+                            font-weight: 300;
+                            line-height: normal;         
+                            margin-top: 28px;                
+                        }
+                    }  
+                    &_forp2 {
+                        @include ForBlocks(center);
+                        &_p {
+                            color: #000;
+                            font-family: Inter;
+                            font-size: 20px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: normal;       
+                            margin-top: 10px;                
+                        }
+                    } 
+                    &_forp3 {
+                        @include ForBlocks(center);
+                        &_p {
+                            color: #fac848;
+                            font-family: Inter;
+                            font-size: 20px;
+                            font-style: normal;
+                            font-weight: 300;
+                            line-height: normal;         
+                            margin-top: 10px;                
+                        }
+                    } 
+                    &_forp4 {
+                        @include ForBlocks(center);
+                        &_p {
+                            color: #000;
+                            font-family: Inter;
+                            font-size: 17px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: normal;       
+                            margin-top: 10px; 
+                            width: 316px;         
+                        }
+                    } 
+                    &_forp5 {
+                        @include ForBlocks(center);
+                        &_p {
+                            color: #fac848;
+                            font-family: Inter;
+                            font-size: 20px;
+                            font-style: normal;
+                            font-weight: 300;
+                            line-height: normal;         
+                            margin-top: 10px;                
+                        }
+                    }
+                    &_forp6 {
+                        @include ForBlocks(center);
+                        &_p {
+                            color: #000;
+                            font-family: Inter;
+                            font-size: 10px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: normal;  
+                            text-align: center;     
+                            margin-top: 10px; 
+                            width: 316px;
+                            height: 19px;        
+                        }
+                    }
+                    &_forp7 {
+                        @include ForBlocks(center);
+                        &_p {
+                            color: #fac848;
+                            font-family: Inter;
+                            font-size: 20px;
+                            font-style: normal;
+                            font-weight: 300;
+                            line-height: normal;         
+                            margin-top: 10px;                
+                        }
+                    }
+                    &_forp8 {
+                        @include ForBlocks(center);
+                        &_p {
+                            color: #000;
+                            font-family: Inter;
+                            font-size: 20px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: normal;       
+                            margin-top: 10px;                
+                        }
+                    } 
+                    &_forp9 {
+                        @include ForBlocks(center);
+                        &_p {
+                            color: #fac848;
+                            font-family: Inter;
+                            font-size: 20px;
+                            font-style: normal;
+                            font-weight: 300;
+                            line-height: normal;         
+                            margin-top: 10px;                
+                        }
+                    }
+                    &_forp10 {
+                        @include ForBlocks(center);
+                        &_p {
+                            color: #000;
+                            font-family: Inter;
+                            font-size: 10px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: normal;  
+                            text-align: center;     
+                            margin-top: 10px; 
+                            width: 316px;
+                            height: 19px;        
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .footer {
+        width: 100%;
+        height: 203px;
+        background: url("../img/bg3.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        &_forp {
+            @include ForBlocks(center);
+            &_p {
+                color: #FFF;
+                text-align: center;
+                font-family: Inter;
+                font-size: 25px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;      
+                margin-top: 70px;        
+            } 
+        }
+        &_icons {
+            @include ForBlocks(center);
+            margin-top: 32px;
         }
     }
 }
