@@ -91,26 +91,24 @@
                 font-weight: 400;
                 margin-top: 25px;
             }
-            &_a {
-                &_btn {
-                    width: 199px;
-                    height: 60px;
-                    border-radius: 10px;
-                    background: #FFD76E;
-                    border: none;
-                    color: #000;
-                    font-family: Inter;
-                    font-size: 24px;
-                    font-style: normal;
-                    font-weight: 400;
-                    line-height: normal;
-                    margin-top: 60px;
-                    cursor: pointer;
+            &_btn {
+                width: 199px;
+                height: 60px;
+                border-radius: 10px;
+                background: #FFD76E;
+                border: none;
+                color: #000;
+                font-family: Inter;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                margin-top: 60px;
+                cursor: pointer;
+                transition-duration: 0.6s;
+                &:hover {
                     transition-duration: 0.6s;
-                    &:hover {
-                        transition-duration: 0.6s;
-                        background: #fff;
-                    }
+                    background: #fff;
                 }
             }
             &_gs {

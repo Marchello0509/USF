@@ -77,7 +77,7 @@
   font-weight: 400;
   margin-top: 25px;
 }
-.main_block1_bl_a_btn {
+.main_block1_bl_btn {
   width: 199px;
   height: 60px;
   border-radius: 10px;
@@ -93,7 +93,7 @@
   cursor: pointer;
   transition-duration: 0.6s;
 }
-.main_block1_bl_a_btn:hover {
+.main_block1_bl_btn:hover {
   transition-duration: 0.6s;
   background: #fff;
 }
